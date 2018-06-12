@@ -3,6 +3,7 @@
 using namespace std;
 class Point
 {
+
 private:
 	int _x;
 	int _y;
@@ -12,10 +13,10 @@ public:
 	friend ostream &operator<<(ostream &,
 		const Point &);
 	~Point();
-protected:
 	int GetX();
-	void SetX(int);
 	int GetY();
+protected:
+	void SetX(int);
 	void SetY(int);
 };
 

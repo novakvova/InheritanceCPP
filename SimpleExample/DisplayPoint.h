@@ -1,7 +1,7 @@
 #pragma once
 #include"Point.h";
 #include"Color.h";
-class DisplayPoint : Point
+class DisplayPoint : public Point
 {
 	Color color;
 public:

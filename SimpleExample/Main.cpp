@@ -5,6 +5,7 @@ int main()
 {
 	Color c(12, 34, 11);
 	DisplayPoint ps(23,45,c);
+	int x=ps.GetX();
 	//ps.
 	//int zz=ps.;
 	cout << ps << "\n";
