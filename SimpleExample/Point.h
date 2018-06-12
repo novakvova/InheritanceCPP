@@ -11,10 +11,11 @@ public:
 	Point(int, int);
 	friend ostream &operator<<(ostream &,
 		const Point &);
+	~Point();
+protected:
 	int GetX();
 	void SetX(int);
 	int GetY();
 	void SetY(int);
-	~Point();
 };
 
